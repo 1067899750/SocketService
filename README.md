@@ -1,0 +1,3 @@
+# SocketService
+通过Socket实现Server和Client之间的通信，Client发送给Server心跳包来检测是否连接，如果没链接后从新进行连接。
+
