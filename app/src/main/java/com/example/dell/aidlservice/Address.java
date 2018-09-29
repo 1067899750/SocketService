@@ -9,7 +9,7 @@ public class Address {
 
      public static void main(String[] rgc){
          try {
-             InetAddress inetAddress = InetAddress.getLocalHost();
+             InetAddress inetAddress = InetAddress.getLocalHost();   //获取本机InetAddress的实例：
              System.out.println(inetAddress.getAddress());
              System.out.println(inetAddress.getHostAddress()); //IP地址
              System.out.println(inetAddress.getHostName()); //本机名
